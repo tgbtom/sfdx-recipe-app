@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#EAC532</headerColor>
+        <logo>icons8books100</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>App to encompass all recipe-related features</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Recipe Library</label>
+    <navType>Standard</navType>
+    <tabs>Recipe__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Recipe_Library_UtilityBar</utilityBar>
+</CustomApplication>
