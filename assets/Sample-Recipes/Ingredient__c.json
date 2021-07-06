@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Ingredient__c",
+                "referenceId": "Ingredient__cRef1"
+            },
+            "Name": "Butter",
+            "Cost_Per_Unit__c": 1.25,
+            "Unit__c": "cup"
+        },
+        {
+            "attributes": {
+                "type": "Ingredient__c",
+                "referenceId": "Ingredient__cRef2"
+            },
+            "Name": "Sugar",
+            "Cost_Per_Unit__c": 2,
+            "Unit__c": "kg"
+        },
+        {
+            "attributes": {
+                "type": "Ingredient__c",
+                "referenceId": "Ingredient__cRef3"
+            },
+            "Name": "Egg",
+            "Cost_Per_Unit__c": 0.33,
+            "Unit__c": "ea"
+        }
+    ]
+}

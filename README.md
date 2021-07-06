@@ -1,3 +1,13 @@
+# Running the project on a scratch org
+1. Create a scratch org 
+sfdx force:org:create -a ScratchOrgAlias --setdefaultusername
+2. Deploy the project to the scratch org
+sfdx force:source:push -u ScratchOrgAlias
+3. Assign recipe library permission set to the user
+sfdx force:user:permset:assign -n Recipe_Library_User -u ScratchOrgAlias
+4. Launch scratch org and go to Recipe Library App
+sfdx force:org:open -u ScratchOrgAlias
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.

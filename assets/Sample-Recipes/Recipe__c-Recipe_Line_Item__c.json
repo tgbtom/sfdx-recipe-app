@@ -1,0 +1,42 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Recipe__c",
+                "referenceId": "Recipe__cRef1"
+            },
+            "Name": "Chocolate Chip Cookies",
+            "Recipe_Line_Items__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Recipe_Line_Item__c",
+                            "referenceId": "Recipe_Line_Item__cRef1"
+                        },
+                        "Name": "RL-00000",
+                        "Quantity__c": 1,
+                        "Unit__c": "cup"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Recipe_Line_Item__c",
+                            "referenceId": "Recipe_Line_Item__cRef2"
+                        },
+                        "Name": "RL-00001",
+                        "Quantity__c": 2,
+                        "Unit__c": "ea"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Recipe_Line_Item__c",
+                            "referenceId": "Recipe_Line_Item__cRef3"
+                        },
+                        "Name": "RL-00002",
+                        "Quantity__c": 1,
+                        "Unit__c": "cup"
+                    }
+                ]
+            }
+        }
+    ]
+}

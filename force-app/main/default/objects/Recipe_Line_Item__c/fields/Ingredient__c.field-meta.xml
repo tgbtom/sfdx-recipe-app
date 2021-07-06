@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ingredient__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Ingredient associated with the current line of the recipe</description>
+    <externalId>false</externalId>
+    <label>Ingredient</label>
+    <referenceTo>Ingredient__c</referenceTo>
+    <relationshipLabel>Recipe Line Items</relationshipLabel>
+    <relationshipName>Recipe_Line_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
