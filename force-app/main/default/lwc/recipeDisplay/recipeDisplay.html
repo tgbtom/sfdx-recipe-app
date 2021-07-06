@@ -1,7 +1,9 @@
 <template>
     <lightning-card title={recipe_name} icon-name="utility:collection">
         <div class="slds-var-m-around_medium">
-            {line_items}
+            <template if:true={lineItems.data}>
+                <lightning-datatable key-field="Id" data={lineItems.data} columns={columns}></lightning-datatable>
+            </template>
         </div>
     </lightning-card>
 </template>
